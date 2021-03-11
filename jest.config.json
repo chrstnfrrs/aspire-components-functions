@@ -1,0 +1,11 @@
+{
+  "roots": ["./test"],
+  "preset": "ts-jest",
+  "verbose": true,
+  "transform": {
+    "^.+\\.ts$": "ts-jest",
+    "^.+\\.js$": "babel-jest"
+  },
+  "moduleFileExtensions": ["js", "ts"],
+  "testPathIgnorePatterns": ["node_modules/", "build/"]
+}
