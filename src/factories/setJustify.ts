@@ -9,4 +9,4 @@ const map: FactoryMap = {
   start: 'justify-start',
 };
 
-export const setJustify: IFactoryFunction = (type) => map[type];
+export const setJustify: IFactoryFunction = (type = '') => map[type];
