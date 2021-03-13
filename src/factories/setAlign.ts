@@ -8,4 +8,4 @@ const map: FactoryMap = {
   stretch: 'align-stretch',
 };
 
-export const setAlign: IFactoryFunction = (type) => map[type];
+export const setAlign: IFactoryFunction = (type) => (type ? map[type] : null);
