@@ -16,4 +16,9 @@ export const checkFactory = (factory: IFactoryFunction, factoryName: string, pro
       expect(factory(chance.string())).toStrictEqual(undefined);
     });
   });
+  describe(`When ${factoryName} is called with undefined`, () => {
+    test('should return undefined', () => {
+      expect(factory(undefined)).toStrictEqual(undefined);
+    });
+  });
 };
