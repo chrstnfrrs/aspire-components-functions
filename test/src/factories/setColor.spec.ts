@@ -9,5 +9,5 @@ const mdColorMapKeys = Object.keys(expectedMdColorMap);
 
 describe('setColor', () => {
   checkFactory(setColor, 'setColor', 'color', colorMapKeys);
-  checkMaterialFactory(setColor, 'setColor', mdColorMapKeys);
+  checkMaterialFactory(setColor, 'setColor', 'color', mdColorMapKeys);
 });
