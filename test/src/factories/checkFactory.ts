@@ -23,10 +23,12 @@ const checkFactory = (factory: IFactoryFunction, factoryName: string, prop: stri
   });
 };
 
-const checkMaterialFactory = (factory: IFactoryFunction, factoryName: string, keys: IKeyList): void => {
+const checkMaterialFactory = (factory: IFactoryFunction, factoryName: string, prop: string, keys: IKeyList): void => {
   describe.each([...keys])(`When ${factoryName} is called with %s`, (key) => {
-    test(`should return md-${key}`, () => {
-      expect(factory(key)).toStrictEqual(`md-${key}`);
+    const expectedField = `md-${prop}-${key}`;
+
+    test(`should return ${expectedField}`, () => {
+      expect(factory(key)).toStrictEqual(expectedField);
     });
   });
   describe(`When ${factoryName} is called with an invalid value`, () => {
