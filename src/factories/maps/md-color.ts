@@ -257,5 +257,6 @@ const map: FactoryMap = {
   'blue-grey-800': 'md-color-blue-grey-800',
   'blue-grey-900': 'md-color-blue-grey-900',
 };
+/* eslint-enable sort-keys */
 
 export { map as mdColorMap };
