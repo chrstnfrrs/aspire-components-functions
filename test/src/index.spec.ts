@@ -4,8 +4,9 @@ import { setBackgroundColor } from '../../src/factories/setBackgroundColor';
 import { setColor } from '../../src/factories/setColor';
 import { setDisplay } from '../../src/factories/setDisplay';
 import { setDirection } from '../../src/factories/setDirection';
-import { setJustify } from '../../src/factories/setJustify';
 import { setHeight } from '../../src/factories/setHeight';
+import { setJustify } from '../../src/factories/setJustify';
+import { setMargin } from '../../src/factories/setMargin';
 import { setMaxHeight } from '../../src/factories/setMaxHeight';
 import { setMaxWidth } from '../../src/factories/setMaxWidth';
 import { setMinHeight } from '../../src/factories/setMinHeight';
@@ -24,6 +25,7 @@ describe('index', () => {
       setDisplay,
       setHeight,
       setJustify,
+      setMargin,
       setMaxHeight,
       setMaxWidth,
       setMinHeight,
