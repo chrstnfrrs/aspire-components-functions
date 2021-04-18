@@ -7,8 +7,10 @@ const chance = new Chance();
 
 const checkFactory = (factory: IFactoryFunction, factoryName: string, prop: string, keys: IKeyList): void => {
   describe.each([...keys])(`When ${factoryName} is called with %s`, (key) => {
-    test(`should return ${prop}-${key}`, () => {
-      expect(factory(key)).toStrictEqual(`${prop}-${key}`);
+    const validatedKey = key.replaceAll('.', '_').replaceAll('/', '__');
+
+    test(`should return ${prop}-${validatedKey}`, () => {
+      expect(factory(key)).toStrictEqual(`${prop}-${validatedKey}`);
     });
   });
   describe(`When ${factoryName} is called with an invalid value`, () => {
