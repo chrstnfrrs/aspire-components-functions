@@ -10,6 +10,7 @@ import { setMaxHeight } from '../../src/factories/setMaxHeight';
 import { setMaxWidth } from '../../src/factories/setMaxWidth';
 import { setMinHeight } from '../../src/factories/setMinHeight';
 import { setMinWidth } from '../../src/factories/setMinWidth';
+import { setPadding } from '../../src/factories/setPadding';
 import { setWidth } from '../../src/factories/setWidth';
 
 describe('index', () => {
@@ -27,6 +28,7 @@ describe('index', () => {
       setMaxWidth,
       setMinHeight,
       setMinWidth,
+      setPadding,
       setWidth,
     });
   });
