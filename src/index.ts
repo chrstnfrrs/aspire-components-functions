@@ -9,6 +9,7 @@ import { setMaxHeight } from './factories/setMaxHeight';
 import { setMaxWidth } from './factories/setMaxWidth';
 import { setMinHeight } from './factories/setMinHeight';
 import { setMinWidth } from './factories/setMinWidth';
+import { setPadding } from './factories/setPadding';
 import { setWidth } from './factories/setWidth';
 
 export {
@@ -23,5 +24,6 @@ export {
   setMaxWidth,
   setMinHeight,
   setMinWidth,
+  setPadding,
   setWidth,
 };
