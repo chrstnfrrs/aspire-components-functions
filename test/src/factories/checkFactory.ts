@@ -12,7 +12,7 @@ const checkFactory = (
   keys: IKeyList,
 ): void => {
   describe.each([...keys])(`When ${factoryName} is called with %s`, (key) => {
-    const validatedKey = key.replaceAll('.', '_').replaceAll('/', '__');
+    const validatedKey = key.split('.').join('_').split('/').join('__');
 
     test(`should return ${prop}-${validatedKey}`, () => {
       expect(factory(key)).toStrictEqual(`${prop}-${validatedKey}`);
