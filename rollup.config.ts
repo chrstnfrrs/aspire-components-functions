@@ -11,6 +11,7 @@ const globals = {
 };
 
 export default {
+  external: Object.keys(globals),
   input: 'src/index.ts',
   output: [
     {
@@ -29,10 +30,9 @@ export default {
     resolve(),
     commonjs(),
     typescript({
+      include: ['*.ts+(|x)', '**/*.ts+(|x)', '*.d.ts', '**/*.d.ts'],
       tsconfig: 'tsconfig.json',
       useTsconfigDeclarationDir: true,
-      include: ['*.ts+(|x)', '**/*.ts+(|x)', '*.d.ts', '**/*.d.ts'],
     }),
   ],
-  external: Object.keys(globals),
 };
