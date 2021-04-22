@@ -16,7 +16,7 @@
     "node": ">=12"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c rollup.config.ts",
     "coverage": "jest --collectCoverage",
     "lint": "eslint './**/*.ts' --ignore-pattern '/node_modules/' --ignore-pattern '/build/' --ignore-pattern '/coverage/'",
     "pre-commit": "yarn prettier",
