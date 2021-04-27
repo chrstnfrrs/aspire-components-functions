@@ -6,6 +6,7 @@ import { setDisplay } from '../../src/factories/setDisplay';
 import { setDirection } from '../../src/factories/setDirection';
 import { setHeight } from '../../src/factories/setHeight';
 import { setJustify } from '../../src/factories/setJustify';
+import { setLayout } from '../../src/factories/setLayout';
 import { setMargin } from '../../src/factories/setMargin';
 import { setMaxHeight } from '../../src/factories/setMaxHeight';
 import { setMaxWidth } from '../../src/factories/setMaxWidth';
@@ -25,6 +26,7 @@ describe('index', () => {
       setDisplay,
       setHeight,
       setJustify,
+      setLayout,
       setMargin,
       setMaxHeight,
       setMaxWidth,
