@@ -5,6 +5,7 @@ import { setDisplay } from './factories/setDisplay';
 import { setDirection } from './factories/setDirection';
 import { setHeight } from './factories/setHeight';
 import { setJustify } from './factories/setJustify';
+import { setLayout } from './factories/setLayout';
 import { setMargin } from './factories/setMargin';
 import { setMaxHeight } from './factories/setMaxHeight';
 import { setMaxWidth } from './factories/setMaxWidth';
@@ -21,6 +22,7 @@ export {
   setDisplay,
   setHeight,
   setJustify,
+  setLayout,
   setMargin,
   setMaxHeight,
   setMaxWidth,
