@@ -4,6 +4,7 @@ import { setColor } from './factories/setColor';
 import { setDirection } from './factories/setDirection';
 import { setDisplay } from './factories/setDisplay';
 import { setElevation } from './factories/setElevation';
+import { setGap } from './factories/setGap';
 import { setHeight } from './factories/setHeight';
 import { setJustify } from './factories/setJustify';
 import { setLayout } from './factories/setLayout';
@@ -22,6 +23,7 @@ export {
   setDirection,
   setDisplay,
   setElevation,
+  setGap,
   setHeight,
   setJustify,
   setLayout,
