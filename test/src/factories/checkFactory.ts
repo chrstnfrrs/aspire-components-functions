@@ -43,7 +43,9 @@ const checkFactoryArray = (factory: IFactoryArrayFunction, factoryName: string, 
     });
     test(`should return all correct classes in a space separated string`, () => {
       arrayOfKeys.forEach((key) => {
-        expect(result).toContain(`${prop}-${key}`);
+        const validatedKey = key.split('.').join('_').split('/').join('__');
+
+        expect(result).toContain(`${prop}-${validatedKey}`);
       });
     });
   });
@@ -59,7 +61,9 @@ const checkFactoryArray = (factory: IFactoryArrayFunction, factoryName: string, 
     });
     test(`should return all correct classes and remove invalid classes in a space separated string`, () => {
       validKeys.forEach((key) => {
-        expect(result).toContain(`${prop}-${key}`);
+        const validatedKey = key.split('.').join('_').split('/').join('__');
+
+        expect(result).toContain(`${prop}-${validatedKey}`);
       });
       invalidKeys.forEach((key) => {
         expect(result).not.toContain(`${key}`);
@@ -86,7 +90,9 @@ const checkFactoryStringList = (
     });
     test(`should return all correct classes in a space separated string`, () => {
       arrayOfKeys.forEach((key) => {
-        expect(result).toContain(`${prop}-${key}`);
+        const validatedKey = key.split('.').join('_').split('/').join('__');
+
+        expect(result).toContain(`${prop}-${validatedKey}`);
       });
     });
   });
@@ -102,7 +108,9 @@ const checkFactoryStringList = (
     });
     test(`should return all correct classes and remove invalid classes in a space separated string`, () => {
       validKeys.forEach((key) => {
-        expect(result).toContain(`${prop}-${key}`);
+        const validatedKey = key.split('.').join('_').split('/').join('__');
+
+        expect(result).toContain(`${prop}-${validatedKey}`);
       });
       invalidKeys.forEach((key) => {
         expect(result).not.toContain(`${key}`);
