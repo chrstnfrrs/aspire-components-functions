@@ -1,20 +1,21 @@
 import * as main from '../../src';
-import { setAlign } from '../../src/factories/setAlign';
-import { setBackgroundColor } from '../../src/factories/setBackgroundColor';
-import { setColor } from '../../src/factories/setColor';
-import { setDirection } from '../../src/factories/setDirection';
-import { setDisplay } from '../../src/factories/setDisplay';
-import { setElevation } from '../../src/factories/setElevation';
-import { setHeight } from '../../src/factories/setHeight';
-import { setJustify } from '../../src/factories/setJustify';
-import { setLayout } from '../../src/factories/setLayout';
-import { setMargin } from '../../src/factories/setMargin';
-import { setMaxHeight } from '../../src/factories/setMaxHeight';
-import { setMaxWidth } from '../../src/factories/setMaxWidth';
-import { setMinHeight } from '../../src/factories/setMinHeight';
-import { setMinWidth } from '../../src/factories/setMinWidth';
-import { setPadding } from '../../src/factories/setPadding';
-import { setWidth } from '../../src/factories/setWidth';
+import { setAlign } from '../../src/selectors/setAlign';
+import { setBackgroundColor } from '../../src/selectors/setBackgroundColor';
+import { setColor } from '../../src/selectors/setColor';
+import { setDirection } from '../../src/selectors/setDirection';
+import { setDisplay } from '../../src/selectors/setDisplay';
+import { setElevation } from '../../src/selectors/setElevation';
+// import { setGap } from '../../src/selectors/setGap';
+import { setHeight } from '../../src/selectors/setHeight';
+import { setJustify } from '../../src/selectors/setJustify';
+import { setLayout } from '../../src/selectors/setLayout';
+import { setMargin } from '../../src/selectors/setMargin';
+import { setMaxHeight } from '../../src/selectors/setMaxHeight';
+import { setMaxWidth } from '../../src/selectors/setMaxWidth';
+import { setMinHeight } from '../../src/selectors/setMinHeight';
+import { setMinWidth } from '../../src/selectors/setMinWidth';
+import { setPadding } from '../../src/selectors/setPadding';
+import { setWidth } from '../../src/selectors/setWidth';
 
 describe('index', () => {
   test('should export expected functions', () => {

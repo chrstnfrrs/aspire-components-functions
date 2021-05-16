@@ -1,19 +1,20 @@
-import { setAlign } from './factories/setAlign';
-import { setBackgroundColor } from './factories/setBackgroundColor';
-import { setColor } from './factories/setColor';
-import { setDirection } from './factories/setDirection';
-import { setDisplay } from './factories/setDisplay';
-import { setElevation } from './factories/setElevation';
-import { setHeight } from './factories/setHeight';
-import { setJustify } from './factories/setJustify';
-import { setLayout } from './factories/setLayout';
-import { setMargin } from './factories/setMargin';
-import { setMaxHeight } from './factories/setMaxHeight';
-import { setMaxWidth } from './factories/setMaxWidth';
-import { setMinHeight } from './factories/setMinHeight';
-import { setMinWidth } from './factories/setMinWidth';
-import { setPadding } from './factories/setPadding';
-import { setWidth } from './factories/setWidth';
+import { setAlign } from './selectors/setAlign';
+import { setBackgroundColor } from './selectors/setBackgroundColor';
+import { setColor } from './selectors/setColor';
+import { setDirection } from './selectors/setDirection';
+import { setDisplay } from './selectors/setDisplay';
+import { setElevation } from './selectors/setElevation';
+// import { setGap } from './selectors/setGap';
+import { setHeight } from './selectors/setHeight';
+import { setJustify } from './selectors/setJustify';
+import { setLayout } from './selectors/setLayout';
+import { setMargin } from './selectors/setMargin';
+import { setMaxHeight } from './selectors/setMaxHeight';
+import { setMaxWidth } from './selectors/setMaxWidth';
+import { setMinHeight } from './selectors/setMinHeight';
+import { setMinWidth } from './selectors/setMinWidth';
+import { setPadding } from './selectors/setPadding';
+import { setWidth } from './selectors/setWidth';
 
 export {
   setAlign,
