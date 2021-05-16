@@ -5,6 +5,7 @@ import { setColor } from '../../src/factories/setColor';
 import { setDirection } from '../../src/factories/setDirection';
 import { setDisplay } from '../../src/factories/setDisplay';
 import { setElevation } from '../../src/factories/setElevation';
+import { setGap } from '../../src/factories/setGap';
 import { setHeight } from '../../src/factories/setHeight';
 import { setJustify } from '../../src/factories/setJustify';
 import { setLayout } from '../../src/factories/setLayout';
@@ -26,6 +27,7 @@ describe('index', () => {
       setDirection,
       setDisplay,
       setElevation,
+      setGap,
       setHeight,
       setJustify,
       setLayout,
