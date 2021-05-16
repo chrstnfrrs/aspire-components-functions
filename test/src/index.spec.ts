@@ -2,8 +2,9 @@ import * as main from '../../src';
 import { setAlign } from '../../src/factories/setAlign';
 import { setBackgroundColor } from '../../src/factories/setBackgroundColor';
 import { setColor } from '../../src/factories/setColor';
-import { setDisplay } from '../../src/factories/setDisplay';
 import { setDirection } from '../../src/factories/setDirection';
+import { setDisplay } from '../../src/factories/setDisplay';
+import { setElevation } from '../../src/factories/setElevation';
 import { setHeight } from '../../src/factories/setHeight';
 import { setJustify } from '../../src/factories/setJustify';
 import { setLayout } from '../../src/factories/setLayout';
@@ -24,6 +25,7 @@ describe('index', () => {
       setColor,
       setDirection,
       setDisplay,
+      setElevation,
       setHeight,
       setJustify,
       setLayout,
