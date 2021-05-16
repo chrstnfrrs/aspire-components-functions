@@ -5,7 +5,7 @@ import { setColor } from '../../src/selectors/setColor';
 import { setDirection } from '../../src/selectors/setDirection';
 import { setDisplay } from '../../src/selectors/setDisplay';
 import { setElevation } from '../../src/selectors/setElevation';
-// import { setGap } from '../../src/selectors/setGap';
+import { setGap } from '../../src/selectors/setGap';
 import { setHeight } from '../../src/selectors/setHeight';
 import { setJustify } from '../../src/selectors/setJustify';
 import { setLayout } from '../../src/selectors/setLayout';
@@ -27,6 +27,7 @@ describe('index', () => {
       setDirection,
       setDisplay,
       setElevation,
+      setGap,
       setHeight,
       setJustify,
       setLayout,

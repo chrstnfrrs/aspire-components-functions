@@ -4,7 +4,7 @@ import { setColor } from './selectors/setColor';
 import { setDirection } from './selectors/setDirection';
 import { setDisplay } from './selectors/setDisplay';
 import { setElevation } from './selectors/setElevation';
-// import { setGap } from './selectors/setGap';
+import { setGap } from './selectors/setGap';
 import { setHeight } from './selectors/setHeight';
 import { setJustify } from './selectors/setJustify';
 import { setLayout } from './selectors/setLayout';
@@ -23,6 +23,7 @@ export {
   setDirection,
   setDisplay,
   setElevation,
+  setGap,
   setHeight,
   setJustify,
   setLayout,
