@@ -1,30 +1,31 @@
 import * as Types from '../types';
 
+/* eslint-disable sort-keys */
 const map: Types.ISelectorMap = {
   '0': 'gap-0',
+  '0x': 'gap-0x',
+  '0y': 'gap-0y',
   '0.5': 'gap-0_5',
   '0.5x': 'gap-0_5x',
   '0.5y': 'gap-0_5y',
-  '0x': 'gap-0x',
-  '0y': 'gap-0y',
   '1': 'gap-1',
+  '1x': 'gap-1x',
+  '1y': 'gap-1y',
   '1.5': 'gap-1_5',
   '1.5x': 'gap-1_5x',
   '1.5y': 'gap-1_5y',
-  '1x': 'gap-1x',
-  '1y': 'gap-1y',
   '2': 'gap-2',
+  '2x': 'gap-2x',
+  '2y': 'gap-2y',
   '2.5': 'gap-2_5',
   '2.5x': 'gap-2_5x',
   '2.5y': 'gap-2_5y',
-  '2x': 'gap-2x',
-  '2y': 'gap-2y',
   '3': 'gap-3',
+  '3x': 'gap-3x',
+  '3y': 'gap-3y',
   '3.5': 'gap-3_5',
   '3.5x': 'gap-3_5x',
   '3.5y': 'gap-3_5y',
-  '3x': 'gap-3x',
-  '3y': 'gap-3y',
   '4': 'gap-4',
   '4x': 'gap-4x',
   '4y': 'gap-4y',
@@ -107,6 +108,7 @@ const map: Types.ISelectorMap = {
   pxx: 'gap-pxx',
   pxy: 'gap-pxy',
 };
+/* eslint-enable sort-keys */
 
 const setGap: Types.SelectorArrayFunction = (type = '') => {
   let props: string[];
