@@ -6,6 +6,7 @@ import { setDirection } from '../../src/selectors/setDirection';
 import { setDisplay } from '../../src/selectors/setDisplay';
 import { setElement } from '../../src/selectors/setElement';
 import { setElevation } from '../../src/selectors/setElevation';
+import { setFontSize } from '../../src/selectors/setFontSize';
 import { setGap } from '../../src/selectors/setGap';
 import { setHeight } from '../../src/selectors/setHeight';
 import { setJustify } from '../../src/selectors/setJustify';
@@ -29,6 +30,7 @@ describe('index', () => {
       setDisplay,
       setElement,
       setElevation,
+      setFontSize,
       setGap,
       setHeight,
       setJustify,
